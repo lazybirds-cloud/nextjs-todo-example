@@ -8,8 +8,9 @@ Demo: https://nextjs-99ac42.lazybirds.cloud
 
 ## Publicar no LazyHost
 
-1. Baixe o .zip pronto no wizard do portal ("Baixe o exemplo de lista de
-   tarefas"), ou compacte esta pasta **sem** `node_modules` e `.next`:
+1. Baixe o .zip deste repositório (**Code → Download ZIP**, ou
+   https://github.com/lazybirds-cloud/nextjs-todo-example/archive/refs/heads/main.zip)
+   — dá para enviar direto. Ou compacte sua cópia **sem** `node_modules` e `.next`:
 
    ```bash
    zip -r tarefas.zip . -x 'node_modules/*' '.next/*' '.git/*'
