@@ -1,0 +1,6 @@
+:root { --bg: #f6f7f9; --card: #fff; --line: #e3e6eb; --muted: #6b7280; --brand: #2563eb; color-scheme: light dark; }
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #0f1115; --card: #171a21; --line: #2a2f3a; --muted: #9aa3b2; --brand: #3b82f6; }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: CanvasText; font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif; }
